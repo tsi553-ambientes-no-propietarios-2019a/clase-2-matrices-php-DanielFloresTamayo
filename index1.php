@@ -1,33 +1,4 @@
 <?php
-/*
-$array["Datos"]["Nombre"] = "Carlos";
-$array["Datos"]["Apellido"] = "Granda";
-$array["Datos"]["Edad"] = "32";
-
-
-$keys = array_keys($array["Datos"]);
-
-$table ="<table border=\"1\">";
-$table .="<tr>";
-
-foreach($keys as $i)
-{
-	$table .="<th>" .$i. "</th>";
-}
-$table .= "</tr>";
-
-foreach($keys as $i)
-{
-	$table .= "<td>" .$array["Datos"]["${i}"] . "</td>";
-	
-
-}
-
-
-$table .= "</table>";
-
-echo $table;*/
-
 
 $a=array('0'=>array('Nombre','Apellido','Edad'),
 '1'=>array('Carlos','Granda','32'),
